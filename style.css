@@ -3,45 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-@font-face {
-    font-family: point;
-    src: url("./To\ The\ Point.ttf");
-}
-
-li {
-    padding: 10px 0;
-}
-
-ul {
-    list-style: none;
-}
-
-p {
-    font-family: point;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-h1 {
-    font-family: savage;
-    letter-spacing: 2px;
-}
-
-header {
-    width: 100%;
-    height: 150px;
-    background-color: var(--color-5);
-=======
 header {
     background: linear-gradient(to bottom, rgb(127, 38, 0), rgb(255, 255, 151), rgb(127, 38, 0));
     height: 100vh;
->>>>>>> 2a2da02 (aggiunti elementi al sito web)
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
     padding: 2px;
 }
 
@@ -51,13 +19,4 @@ header {
   --color-3: #ff9000; /* arancio medio */
   --color-4: #ffb700; /* arancio chiaro tendente al giallo */
   --color-5: #ffd700; /* giallo oro brillante */
-=======
-    gap: 5rem;
-    font-size: 2rem;
-}
-button {
-    font-size: 2rem;
-    padding: 0.8rem 1.6rem;
-    background-color: greenyellow;
->>>>>>> 2a2da02 (aggiunti elementi al sito web)
 }
