@@ -1,22 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    behavior: smooth;
+}
+
+@font-face {
+    font-family: "Scribble Gothic";
+    src: url("./ScribbleGothic.otf");
+}
+
 header {
-    background: linear-gradient(to bottom, rgb(127, 38, 0), rgb(255, 255, 151), rgb(127, 38, 0));
+    /* background: linear-gradient(to bottom, var(--rose), var(--random-green), var( --chrysler-blue), var(--vivid-sky-blue)); */
+    background-color: var(--random-black);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2px;
+    gap: 2rem;
+    font-family: "Scribble Gothic";
+    color: var(--fandango);
+}
+
+/* h1 {
+    color: var(--random-black);
+} */
+
+/* #seconda_scritta {
+    color: var(--fandango);
+} */
+
+button,
+header {
+    font-size: var(--font-head-size);
+}
+
+button {
+    font-family: inherit;
+}
+
+#sun,
+#moon {
+    font-size: var(--font-head-icons);
+}
+
+#head-btn {
+    padding: 0.8rem 1.6rem;
+        /* background: linear-gradient(to top, var(--rose), var(--random-green), var( --chrysler-blue), var(--vivid-sky-blue)); */
+    background: var(--random-black);
+    color: var(--fandango);
+    border-radius: 1rem;
+    border: solid 1px var(--fandango);
+}
+
+#head-btn:hover {
+    color: var(--light-green);
+    border: solid 1px var(--light-green);
+    cursor: pointer;
 }
 
 :root {
-  --color-1: #ff3b00; /* rosso-arancio intenso */
-  --color-2: #ff6a00; /* arancio vivo */
-  --color-3: #ff9000; /* arancio medio */
-  --color-4: #ffb700; /* arancio chiaro tendente al giallo */
-  --color-5: #ffd700; /* giallo oro brillante */
+    --font-head-size: 3rem;
+    --font-head-icons: 4rem;
+    --rose: #f72585ff;
+    --fandango: #b5179eff;
+    --grape: #7209b7ff;
+    --chrysler-blue: #560badff;
+    --dark-blue: #480ca8ff;
+    --zaffre: #3a0ca3ff;
+    --palatinate-blue: #3f37c9ff;
+    --neon-blue: #4361eeff;
+    --chefchaouen-blue: #4895efff;
+    --vivid-sky-blue: #4cc9f0ff;
+    --random-green: #1fd762;
+    --light-green: #d9ed92;
+    --random-yellow: #ffe169;
+    --random-black: #0b0b0b;
 }
