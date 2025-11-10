@@ -7,7 +7,13 @@
     src: url("./To\ The\ Point.ttf");
 }
 
+li {
+    padding: 10px 0;
+}
 
+ul {
+    list-style: none;
+}
 
 p {
     font-family: point;
@@ -23,10 +29,18 @@ h1 {
 header {
     width: 100%;
     height: 150px;
-    background-color: yellow;
+    background-color: var(--color-5);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2px;
+}
+
+:root {
+  --color-1: #ff3b00; /* rosso-arancio intenso */
+  --color-2: #ff6a00; /* arancio vivo */
+  --color-3: #ff9000; /* arancio medio */
+  --color-4: #ffb700; /* arancio chiaro tendente al giallo */
+  --color-5: #ffd700; /* giallo oro brillante */
 }
